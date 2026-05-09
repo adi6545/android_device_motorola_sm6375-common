@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResProduct \
     FrameworksResTarget \
+    LineageApertureAppCommon \
     NcmTetheringOverlay \
     SettingsProviderResCommon \
     SystemUIResCommon \
@@ -139,10 +140,6 @@ PRODUCT_PACKAGES += \
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-
-# Framework detect
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
 
 # GPS
 PRODUCT_PACKAGES += \
